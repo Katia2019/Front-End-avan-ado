@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #9932CC 0%, #FFF0F5 100%);
+}
+
+.caixa{
+    display: flex;
+    background-color: #FFB6C1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.card{
+    background-color: #FAF0E6;
+    margin-left:  60px;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card h3{
+    justify-self: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cardoff{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.desconto{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.oferta{
+    color: red;
+}
+
+.preco{
+    display: flex;
+    margin-left: 10px;
+    gap: 20px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.atual{
+    font-size: 24px;
+}
+
+.passado{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.preco p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
