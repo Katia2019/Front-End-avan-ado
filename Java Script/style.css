@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(90deg, #D2691E 0%, #DEB887 100%);
+    color: black;
+    min-height: 50vh;
+}
+
+main {
+    max-width: 500px;
+    margin: 45px auto;
+    padding: 0 50px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+footer {
+    padding: 30px;
+    background-color: #F4A460;
+    margin-top: 500px;
+}
+
+button{
+    font-size: 1.3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 260px;
+}
+
+input{
+    width: 200px;
+}
