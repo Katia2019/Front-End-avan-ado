@@ -2,9 +2,9 @@ function verificarSenha()
 {
     let senha = document.getElementById("senha").value;
 
-    if (senha === "loucura")
+    if (senha === "dia")
     {
-        alert("Loucura, loucura");
+        alert("Eis que faço nova todas as coisas!!!");
     }
     else if (senha === "faustao")
     {
@@ -29,8 +29,8 @@ function magia()
 
 function gradiente()
 {
-    let back = document.body;
-    area.style.color = "blue";
-    area.style.background = "linear-gradiente(135deg #8B008B, #9932CC, #FFF0F5)";
-    area.style.padding = "25px";
+    let body = document.getElementById("body");
+    body.style.color = "blue";
+    body.style.height =  "910";
+    body.style.backgroundImage = "linear-gradient(135deg, #1A1145, #D63384, #FD7E14, #FFC107)";
 }

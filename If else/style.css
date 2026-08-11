@@ -1,9 +1,15 @@
 .localmagia{
     background-color: greenyellow;
     color: blue;
+    width: 350px;
 }
 
 body{
     background-color: rgb(245, 246, 244);
     color: rgb(252, 14, 161);
+    background: linear-gradient( #6a11cb 0%, #2575fc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 910px;
 }
