@@ -1,0 +1,144 @@
+body{
+    background: linear-gradient(270deg, #320440, #365b8b);
+    color: white;
+    margin: 20px;
+
+}
+img{
+    width: 300px;
+    margin: 20px;
+}
+nav a{
+    color: orange;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header{
+    background: linear-gradient(270deg, #365b8b, #320440);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+footer class{
+    background: linear-gradient(270deg, #320440, #365b8b);
+    color: white;
+    margin: 0;
+}
+
+.caixa{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    border: 5px solid pink;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.card img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.card img:hover{
+    transform: scale(2);
+    border: 15px;
+    cursor: grab;
+    box-shadow: 2px 2px 10px pink;
+}
+.container-imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.container-imagem img{
+    height: 300px;
+    width: 300px;
+}
+
+.container-imagem img:hover{
+    transform: scale(2);
+    border: 15px;
+    cursor: grab;
+    box-shadow: 2px 2px 10px pink;
+}
+
+h1{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #A0522D;
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #FA8072;
+    font-size: 50px;
+    font-weight: bolder; 
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #FA8072;
+    font-size: 50px;
+    font-weight: bolder; 
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #A0522D;
+    font-size: 40px;
+}
+
+a{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #FA8072;
+    font-size: 30px;
+    font-weight: bolder; 
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: #FA8072;
+    font-size: 40px;
+}
+
+.preço{
+    font-family: courier 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 50px;
+}
+
+.nossa-historia{
+    justify-content: center;font-family: courier 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder; 
+    display: flex;
+    justify-content: center;
+
+}
