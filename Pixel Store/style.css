@@ -39,6 +39,7 @@ footer class{
     padding-bottom: 5px;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -51,8 +52,8 @@ footer class{
     border-radius: 20px;
 }
 .card img{
-    width: 70%;
-    height: 70%;
+    width: 250px;
+    height: 300px;
     border-radius: 20px;
 }
 
@@ -141,4 +142,86 @@ button{
     display: flex;
     justify-content: center;
 
+}
+
+.esconder{
+    visibility: hidden;
+}
+
+.main2{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: linear-gradient(270deg, #365b8b, #320440);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #FA8072;
+  text-align: center;
+}
+
+fieldset {
+  border: 1px solid #A0522D;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+legend {
+  font-weight: bold;
+  color: #A0522D;
+  padding: 0 8px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #FA8072;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+button[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #320440;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #365b8b;
+}
+
+input[type="reset"] {
+  background-color: #365b8b;
+  color: white;
+}
+
+input[type="reset"]:hover {
+  background-color: #320440;
 }
