@@ -21,6 +21,7 @@
     </nav>
 </header>  
     <main>
+        
       <br>
 
            <section class="caixa">
@@ -106,12 +107,48 @@
             </div>
             
     </main>
+
+    <main class="ativarpromocao" id="ativarpromocao">
+            <button onclick="destacarpromocao()">Ativar Promoção</button>
+
+            <div class="card" data-promocao="true">
+                <img src="imagem\mouse gamer.png">
+                    <h4>Mouse Gamer</h4>
+                    <p class="preço">R$ 120,00</p>                            
+            </div>
+
+            <div class="card" data-promocao="true">
+                <img src="imagem\headset gamer.png">
+                <section class="textocard">
+                    <h4>Headset Gamer</h4>
+                    <p class="preço">R$ 150,00</p>              
+            </div>
+
+            <div class="card" data-promocao="true">
+                <img src="imagem\controle gamer.png">
+                <section class="textocard">
+                    <h4>Controle Gamer</h4>
+                    <p class="preço">R$ 220,00</p>            
+            </div>
+        </main> 
+
+        <select>
+            <option value="120,00">Mouse Gamer - R$ 120,00</option>
+            <option value="150,00">Headset Gamer - R$ 150,00</option>
+            <option value="220,00">Controle Gamer - R$ 220,00</option>
+            <option value="1.200,00">Cadeira Ergonomica - R$ 1.200,00</option>
+            <option value="2.800,00">Poltrona - R$ 2.800,00</option>
+            <option value="139,90">Mochila - R$ 139,90</option>
+            <option value="1.099,00">Gabinete Gamer - R$ 1.099,00</option>
+            <option value="15.099,00">Notebook Gamer - R$ 15.099,00</option>
+            <option value="582,00">Smartwatch - R$ 582,00</option>
+        </select>
+
     <button onclick="filtrar()">Filtrar Computadores</button>
 
     <footer class="meu-rodape">
     <p>2026 Pixel Store. Todos os direitos reservados.</p>     
     </footer>
-
 
     <script src="script.js"></script>
 </body>

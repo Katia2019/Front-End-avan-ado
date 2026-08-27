@@ -7,3 +7,10 @@ function filtrar()
     pc1.classList.add("esconder");
     pc2.classList.add("esconder");
 }
+
+function magia()
+{
+    let area = document.getElementById("localmagia");
+    area.style.backgroundColor = "#320440";
+}
+
